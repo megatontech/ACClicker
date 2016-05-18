@@ -1,0 +1,72 @@
+﻿<html class="js webgl">
+<head>
+    <meta charset="utf-8">
+    <title>Surface</title>
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <style type="text/css"></style>
+    <style id="holderjs-style" type="text/css"></style>
+</head>
+<body class=" __plain_text_READY__">
+    <div id="menu">
+        <div id="menu-inner">
+            <div id="gui" class="live">
+                <div class="gui-set clearfix">
+                    <h2 class="disabled">Magnitude:</h2>
+                    <a href="#" class="default" data-guivar="magnitude" data-guival="3">Low</a>
+                    <a href="#" data-guivar="magnitude" data-guival="5" class="disabled">Medium</a>
+                    <a href="#" data-guivar="magnitude" data-guival="10" class="disabled">High</a>
+                </div>
+                <div class="gui-set clearfix">
+                    <h2 class="disabled">Elasticity:</h2>
+                    <a href="#" data-guivar="elasticity" data-guival="0.0001" class="disabled">Low</a>
+                    <a href="#" class="default disabled" data-guivar="elasticity" data-guival="0.0002">Medium</a>
+                    <a href="#" data-guivar="elasticity" data-guival="0.001" class="">High</a>
+                </div>
+                <div class="gui-set clearfix">
+                    <h2 class="disabled">Auto Orbit:</h2>
+                    <a href="#" class="default disabled" data-guivar="orbit" data-guival="true">Yes</a>
+                    <a href="#" data-guivar="orbit" data-guival="false" class="">No</a>
+                </div>
+                <div class="gui-set clearfix">
+                    <h2 class="disabled">Wireframe:</h2>
+                    <a href="#" class="default disabled" data-guivar="wireframeOpacity" data-guival="1">Yes</a>
+                    <a href="#" data-guivar="wireframeOpacity" data-guival="0" class="">No</a>
+                </div>
+                <div class="gui-set clearfix">
+                    <h2 class="disabled">Raindrops:</h2>
+                    <a href="#" class="default disabled" data-guivar="raindrops" data-guival="false">No</a>
+                    <a href="#" data-guivar="raindrops" data-guival="true" class="">Yes</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div id="container">
+
+
+
+        <canvas width="1700" height="1099"></canvas>
+    </div>
+
+    <script src="Scripts/jquery-1.10.2.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+    <script src="js/Three.js"></script>
+    <script src="js/Modernizr.js"></script>
+    <script src="js/RequestAnimationFrame.js"></script>
+    <script src="js/Surface.js"></script>
+    <!-- Analytics -->
+    <script type="text/javascript">
+
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-13024693-3']);
+	  _gaq.push(['_trackPageview']);
+
+	  (function() {
+	    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	  })();
+
+    </script>
+</body>
+</html>
