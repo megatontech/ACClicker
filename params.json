@@ -1,0 +1,6 @@
+{
+  "name": "Acclicker",
+  "tagline": "挂机系列游戏——弹幕工厂",
+  "body": "##ACClicker\r\n***\r\n###杀时间挂机必备\r\n\r\n####受到饼干老奶奶小游戏启发，开发的网页挂机小游戏，支持平台**UWP/浏览器/android**\r\n***\r\n主要实现功能 \r\n* 正常游戏逻辑 \r\n* 多平台兼容 \r\n* AC接口数据绑定 \r\n* 与九周年游戏数据同步功能（导出成就） \r\n* 绚烂多彩的游戏UI设计",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
